@@ -17,19 +17,6 @@ let step = () => {
     }, 100);
 }
 
-step(); let step = () => {
-    setTimeout(() => {
-        n = n + 1;
-        demo.innerHTML = string.substring(0, n);
-        if (n < string.length) {
-            step();
-        }
-        n = n + 1;
-        demo.innerHTML = string.substring(0, n);
-        if (n < string.length) {
-            step();
-        }
-    }, 100);
-}
+
 
 
